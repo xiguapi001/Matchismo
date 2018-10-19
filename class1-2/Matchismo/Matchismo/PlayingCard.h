@@ -10,4 +10,7 @@
 
 @interface PlayingCard : Card
 
+@property (nonatomic,strong)NSString* suit;//花色 ♥️ ♣️ ♠️ ♦️
+@property (nonatomic)NSUInteger rank;//点数 A 2 3 4 ... J Q K
+
 @end
