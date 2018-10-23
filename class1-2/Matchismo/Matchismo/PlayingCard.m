@@ -40,6 +40,13 @@
 }
 +(NSUInteger)maxRank
 {
+    //两个方法都是类方法 可以用[self method]来调用 否则用类名加上方法
     return [[self rankString] count] - 1;
+}
+-(void)setRank:(NSUInteger)rank
+{
+    if(rank < [PlayingCard maxRank]){
+        _rank = rank;
+    }
 }
 @end
