@@ -11,7 +11,10 @@
 @implementation PlayingCard
 
 @synthesize suit = _suit;
-
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"%lu %@", (unsigned long)self.rank,self.suit];
+}
 -(NSString*) content
 {
     //return [NSString stringWithFormat:@"%lu%@",(unsigned long)self.rank,self.suit];
@@ -45,7 +48,7 @@
 }
 -(void)setRank:(NSUInteger)rank
 {
-    if(rank < [PlayingCard maxRank]){
+    if(rank <= [PlayingCard maxRank]){
         _rank = rank;
     }
 }
