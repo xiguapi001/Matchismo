@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6031CDF217F67FF00EE256D /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = F6031CD8217F67FF00EE256D /* Card.m */; };
+		5167DD88217FFF9C00FBC7FC /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167DD87217FFF9C00FBC7FC /* Card.m */; };
 		F6031CE0217F67FF00EE256D /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = F6031CDA217F67FF00EE256D /* Deck.m */; };
 		F6031CE1217F67FF00EE256D /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F6031CDC217F67FF00EE256D /* PlayingCard.m */; };
 		F6031CE2217F67FF00EE256D /* PlayingDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = F6031CDE217F67FF00EE256D /* PlayingDeck.m */; };
@@ -40,8 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F6031CD7217F67FF00EE256D /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
-		F6031CD8217F67FF00EE256D /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		5167DD86217FFF9C00FBC7FC /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		5167DD87217FFF9C00FBC7FC /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		F6031CD9217F67FF00EE256D /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		F6031CDA217F67FF00EE256D /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		F6031CDB217F67FF00EE256D /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
@@ -96,10 +96,10 @@
 		F6031CD6217F676400EE256D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5167DD86217FFF9C00FBC7FC /* Card.h */,
+				5167DD87217FFF9C00FBC7FC /* Card.m */,
 				F6031CE3217F688800EE256D /* CardMathingGame.h */,
 				F6031CE4217F688800EE256D /* CardMathingGame.m */,
-				F6031CD7217F67FF00EE256D /* Card.h */,
-				F6031CD8217F67FF00EE256D /* Card.m */,
 				F6031CD9217F67FF00EE256D /* Deck.h */,
 				F6031CDA217F67FF00EE256D /* Deck.m */,
 				F6031CDB217F67FF00EE256D /* PlayingCard.h */,
@@ -311,8 +311,8 @@
 				F6031CE0217F67FF00EE256D /* Deck.m in Sources */,
 				F6F97B0221723B60004F9A0B /* ViewController.m in Sources */,
 				F6F97AFF21723B60004F9A0B /* AppDelegate.m in Sources */,
+				5167DD88217FFF9C00FBC7FC /* Card.m in Sources */,
 				F6F97AFC21723B60004F9A0B /* main.m in Sources */,
-				F6031CDF217F67FF00EE256D /* Card.m in Sources */,
 				F6031CE2217F67FF00EE256D /* PlayingDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
