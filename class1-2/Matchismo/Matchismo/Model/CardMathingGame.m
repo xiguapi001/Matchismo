@@ -11,7 +11,7 @@
 @interface CardMathingGame()
 @property (nonatomic,readwrite)NSInteger score;//redclare score 公共属性在这里重新定义为
                                              //可以修改的属性
-@property (nonatomic,strong)NSMutableArray* cards;//保存card到列表
+@property (nonatomic,strong)NSMutableArray* cards;//保存card到列表 of card
 @end
 @implementation CardMathingGame
 
