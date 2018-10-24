@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Card : NSObject
+@interface Card:NSObject
+@property (nonatomic,strong)NSString* content;
+@property (nonatomic) BOOL matched;
+@property (nonatomic,getter=isChoosen) BOOL choosen;
 
 @end
